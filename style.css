@@ -20,14 +20,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 400px;
+    padding-top: 100px;
     z-index: 1;
 }
 
 #logo_title {
     box-sizing: border-box;
+    position: relative;
     z-index: 5;
-    width: 650px;
-    height: 160px;
+    width: 665px;
+    height: 175px;
     margin: auto;
     padding: 10px;
 }
@@ -40,7 +42,7 @@ body {
     width: 650px;
     padding: 20px;
     margin: auto;
-    margin-top: -80px;
+    margin-top: -170px;
     left: 0;
     right: 0;
     top: 0; 
