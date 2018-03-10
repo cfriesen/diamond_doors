@@ -1,49 +1,46 @@
 html {
-    max-width: 1100px;
-    margin: auto;
-    background: #BB453C
+    background: #BB453C;
 }
 
-#logo {
-    width: 90px;
+body {
+    max-width: 960px;
+    margin: auto;
+    font-family: sans-serif;
 }
 
 #banner {
+    box-sizing: border-box;
     background-image: url(Resources/Garage_Doors_Markham.jpg);
-    background-position: 0px -270px;
+    background-position: 0px -290px;
     height: 400px;
-    margin: -10px;
-    padding-top: 50px;
+    position: static;
+    padding-top: 75px;
 }
 
-#banner #logo {
+#logo_name {
+    background: rgba(250, 250, 250, 0.7);
+    box-shadow: 10px 10px 30px;
+    width: 650px;
+    padding: 20px;
+    margin: auto;
+}
+
+#logo {
+    width: 130px;
+}
+
+#banner li {
+    color: #BB453C;
+    font-size: 5em;
+    font-weight: 700;
+    width: 300px;
     display: inline-block;
-    width: 200px;
-    float: left;
-    margin-left: 160px;
-    margin-top: 50px;
-}
-
-#banner #title {
-    display: inline;
-    float: right;
-    width: 430px;
-    margin-left: 220px;
-    position: fixed;
 }
 
 #banner h1 {
-    color: white;
-    font-size: 100px;
-    width: 470px;
-    margin-top: 0px;
-    margin-bottom: 15px;
+    width: 300px;
 }
 
-#offset {
-    padding-left: 75px;
-}
-
-#title {
-    padding-top: 50px;
+#offset_right {
+    padding-left: 100px;
 }
