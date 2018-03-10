@@ -13,6 +13,7 @@ body {
     font-family: sans-serif;
 }
 
+/* This section contains the formatting for the banner*/
 #banner {
     box-sizing: border-box;
     background-image: url(Resources/Garage_Doors_Markham.jpg);
@@ -25,6 +26,7 @@ body {
 }
 
 #logo_title {
+    background: rgba(255, 255, 255, 0.4);
     box-sizing: border-box;
     position: relative;
     z-index: 5;
@@ -32,6 +34,8 @@ body {
     height: 175px;
     margin: auto;
     padding: 10px;
+    transform: translate(10px, 15px);
+    border-radius: 5px;
 }
 
 #glass {
@@ -52,13 +56,14 @@ body {
 
 #logo {
     width: 130px;
+    padding-left: 35px;
+    margin-right: 90px;
 }
 
 #banner li {
     color: #BB453C;
     font-size: 5em;
     font-weight: 700;
-    width: 300px;
     display: inline-block;
 }
 
