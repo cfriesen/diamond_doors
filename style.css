@@ -91,6 +91,10 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    color: #840000;
+}
+
 /*This section contains the css formatting for the main area*/
 main {
     width: 960px;
