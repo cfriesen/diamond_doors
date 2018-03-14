@@ -1,6 +1,7 @@
 html {
     background: #BB453C;
     background: linear-gradient(#bb453c, #e890000);
+    color: white;
 }
 
 *{
@@ -41,7 +42,7 @@ body {
 #glass {
     z-index: 2;
     background: inherit;
-    box-shadow: 10px 10px 30px;
+    box-shadow: 10px 10px 30px black;
     height: 150px;
     width: 645px;
     padding: 20px;
@@ -71,12 +72,26 @@ body {
     width: 300px;
 }
 
+nav {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
 /*This section contains the css formatting for the main area*/
 main {
     width: 960px;
     margin: auto;
     margin-top: 30px;
-    color: white;
+    margin-bottom: 30px;
 }
 
 .title_info h1 {
