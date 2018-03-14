@@ -79,15 +79,16 @@ main {
     color: white;
 }
 
-.text h1 {
+.title_info h1 {
     font-size: 2.5em;
     text-align: center;
     line-height: 1.2em;
     width: 700px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
-.text p {
+.title_info p {
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.5em;
@@ -130,7 +131,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-gap: 5px;
+    grid-gap: 15px;
     justify-items: center;
     grid-auto-rows: 1fr;
 }
@@ -139,6 +140,10 @@ main {
     width: 400px;
     margin: auto;
     text-align: center;
+}
+
+.door p {
+    font-size: 1.5em;
 }
 
 .door img {
