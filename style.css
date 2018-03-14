@@ -73,7 +73,7 @@ body {
 
 /*This section contains the css formatting for the main area*/
 main {
-    width: 800px;
+    width: 960px;
     margin: auto;
     margin-top: 30px;
     color: white;
@@ -123,4 +123,24 @@ main {
     .col img {
         width: 200px;
     }
+}
+
+/*This section formatts the previews of the garage doors on the residential and commercial page*/
+.grid_2_col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+    grid-auto-rows: 1fr;
+}
+
+.door {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.door img {
+    width: 380px;
 }
