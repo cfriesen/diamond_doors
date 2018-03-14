@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 /*This section contains the css formatting for the main area*/
-main {
+main, footer{
     width: 960px;
     margin: auto;
     margin-top: 30px;
@@ -150,7 +150,7 @@ main {
     }
 }
 
-/*This section formatts the previews of the garage doors on the residential and commercial page*/
+/*This section formats the previews of the garage doors on the residential and commercial page*/
 .grid_2_col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -172,4 +172,9 @@ main {
 
 .door img {
     width: 380px;
+}
+
+/* This section formats the footer*/
+footer h6 {
+    text-align: right;
 }
