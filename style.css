@@ -86,12 +86,12 @@ nav li {
     padding: 15px;
 }
 
-nav a {
+nav a, footer a {
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     color: #840000;
 }
 
