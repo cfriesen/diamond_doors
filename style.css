@@ -20,7 +20,7 @@ a {
 }
 
 main p {
-    
+    font-size: 1.3em;
 }
 
 /* This section contains the formatting for the banner*/
@@ -158,8 +158,8 @@ main, footer, nav{
     text-align: center;
 }
 
-.door p {
-    font-size: 1.3em;
+.door h2 {
+    margin: 15px 0px;
 }
 
 .door img {
