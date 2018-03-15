@@ -19,6 +19,10 @@ a {
     color: white;
 }
 
+main p {
+    
+}
+
 /* This section contains the formatting for the banner*/
 #banner {
     box-sizing: border-box;
@@ -155,7 +159,7 @@ main, footer, nav{
 }
 
 .door p {
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .door img {
