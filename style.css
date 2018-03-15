@@ -163,7 +163,7 @@ main, footer, nav{
 }
 
 .door img {
-    width: 380px;
+    width: 100%;
 }
 
 /* This section formats the footer*/
